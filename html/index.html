@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculara IMC</title>
+    <script src="../js/calculadora.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <main class="formulario">
+        <!-- primeiro campo -->
+        <div class="campoPeso">
+            <label class="campoPeso" for="quilograma">Peso:</label>
+            <input type="number" id="quilograma">
+        </div>
+        <!--  segundo campo -->
+        <div class="campoAltura">
+            <label class="campoAltura" for="metros">Altura:</label>
+            <input type="number" id="metros">
+        </div>
+
+        <button onclick="calculadoraIMC()">Calcular</button>
+
+        <p id="valorIMC">Valor Imc:</p>
+        <p id="resultado"></p>
+        </div>
+    </main>
+</body>
+
+</html>
